@@ -1,11 +1,11 @@
-# caltulator
+# Caltulator
 
 My first project with usage of JavaScript 
 
-All technologies used: 
--HTML
--SCSS
--Vanilla JavaScript 
+# All technologies used: 
+- HTML
+- SCSS
+- Vanilla JavaScript 
 
 Design was inspired with Frontend mentor
 
