@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: 'Spartan', sans-serif;
+  overflow: hidden;
+}
+
+.container-calculator {
+  width: 100vw;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: #3a4764;
+}
+
+.container-calculator .head {
+  color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.container-calculator #result {
+  white-space: nowrap;
+  text-overflow: clip;
+  border-radius: 10px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 3%;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  height: 70px;
+  background-color: #182034;
+}
+
+.container-calculator .buttons {
+  border-radius: 10px;
+  border-color: none;
+  background-color: #232c43;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.container-calculator .buttons .bottom {
+  padding-left: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 205%;
+}
+
+.container-calculator .buttons .bottom .button-eq {
+  background-color: #d03f2f;
+  color: white;
+}
+
+.container-calculator .buttons .bottom .button-reset {
+  background-color: #637097;
+  color: white;
+}
+
+.container-calculator .buttons .bottom .button-delete {
+  background-color: #637097;
+  color: white;
+}
+
+.container-calculator .buttons .button {
+  border-radius: 10px;
+  color: #444b5a;
+  background-color: #eae3dc;
+  margin: 5%;
+  padding: 25%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  font-family: 'Spartan', sans-serif;
+}
+/*# sourceMappingURL=style.css.map */
